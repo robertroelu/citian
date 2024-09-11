@@ -1,7 +1,7 @@
 //Finsweet attributes
-// import { linkblockedit } from '@finsweet/attributes-linkblockedit/';
+import { linkblockedit } from '@finsweet/attributes-linkblockedit';
 // import { } from '@finsweet/attributes-cmssort/'
-// import { } from '@finsweet/attributes-cmsfilter/'
+import { cmsfilter } from '@finsweet/attributes-cmsfilter';
 // import { } from '@finsweet/attributes-scrolldisable/'
 // import { } from '@finsweet/attributes-cmsload/'
 // import { } from '@finsweet/attributes-socialshare/'
@@ -15,6 +15,10 @@ import { nestedElement } from './nest/nestElement';
 //Utils
 import { swipers } from '$utils/swipers';
 import { lines } from '$utils/lines';
+import { titleAnimation } from '$utils/titleAnimation';
+import { elementAnimation } from '$utils/elementAnimation';
+import { scrollAnimation } from '$utils/scrollAnimation';
+import { socialShare } from '$utils/socialShare';
 // import { consoleClear } from '$utils/consoleClear';
 // import { actualYear } from '$utils/actualYear';
 // import { typer } from '$utils/typer';
@@ -24,9 +28,14 @@ window.Webflow.push(() => {
   // consoleClear();
   // actualYear();
   // nestedElement();
-  // linkblockedit();
+  linkblockedit();
+  cmsfilter();
   // modal();
+  titleAnimation();
+  elementAnimation();
+  scrollAnimation();
   swipers();
+  socialShare();
   // typer();
   lines();
 });
