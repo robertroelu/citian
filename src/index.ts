@@ -19,13 +19,13 @@ import { titleAnimation } from '$utils/titleAnimation';
 import { elementAnimation } from '$utils/elementAnimation';
 import { scrollAnimation } from '$utils/scrollAnimation';
 import { socialShare } from '$utils/socialShare';
-// import { consoleClear } from '$utils/consoleClear';
+import { consoleClear } from '$utils/consoleClear';
 // import { actualYear } from '$utils/actualYear';
 // import { typer } from '$utils/typer';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  // consoleClear();
+  consoleClear();
   // actualYear();
   // nestedElement();
   linkblockedit();
