@@ -30,7 +30,7 @@ window.Webflow.push(() => {
   // nestedElement();
   linkblockedit();
   cmsfilter();
-  scrollAnimation();
+  scrolldisable();
   // modal();
   titleAnimation();
   elementAnimation();
