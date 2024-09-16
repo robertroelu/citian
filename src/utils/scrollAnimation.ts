@@ -16,8 +16,8 @@ export const scrollAnimation = () => {
     let tl = gsap.timeline({
       scrollTrigger: {
         trigger: el,
-        start: 'top 90%',
-        end: 'bottom 40%',
+        start: 'top 70%',
+        end: 'bottom 65%',
         scrub: true,
       },
     });
