@@ -26,7 +26,7 @@ export function elementAnimation(element: HTMLElement[]) {
 
     let tl = gsap.timeline({ paused: true });
     tl.from(words, {
-      y: '20%',
+      y: '-20%',
       opacity: 0,
       duration: 1,
       ease: 'ease',

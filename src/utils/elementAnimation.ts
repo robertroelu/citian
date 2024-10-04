@@ -29,7 +29,7 @@ export function elementAnimationWithScroll(element: HTMLElement[]) {
 
     let tl = gsap.timeline({ paused: true });
     tl.from(el, {
-      y: '20%',
+      y: '-20%',
       opacity: 0,
       duration: 1,
       ease: 'ease',
